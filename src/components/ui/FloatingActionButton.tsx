@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import { FaWhatsapp } from 'react-icons/fa';
 
 export default function FloatingActionButton() {
   return (
@@ -27,7 +28,7 @@ export default function FloatingActionButton() {
         }}
         aria-label="WhatsApp"
       >
-        <i className="fab fa-whatsapp text-2xl"></i>
+        <FaWhatsapp className="text-2xl" />
       </motion.a>
     </motion.div>
   );
