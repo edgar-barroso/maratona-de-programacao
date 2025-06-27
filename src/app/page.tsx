@@ -9,10 +9,9 @@ import ContactSection from '@/components/sections/ContactSection';
 import Footer from '@/components/sections/Footer';
 import FloatingActionButton from '@/components/ui/FloatingActionButton';
 import SmoothScrolling from '@/components/ui/SmoothScrolling';
-
 export default function Home() {
   return (
-    <>
+    <div className="overflow-x-hidden">
       <Header />
       <HeroSection />
       <TeamSection />
@@ -24,6 +23,6 @@ export default function Home() {
       <Footer />
       <FloatingActionButton />
       <SmoothScrolling />
-    </>
+    </div>
   );
 }

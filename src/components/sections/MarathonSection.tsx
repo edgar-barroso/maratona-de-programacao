@@ -12,7 +12,7 @@ export default function MarathonSection() {
   ];
 
   return (
-    <section id="maratona" className="py-20 gradient-bg">
+    <section id="maratona" className="py-20 gradient-bg ">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <AnimatedSection className="text-center mb-16">
