@@ -3,11 +3,13 @@
 import { motion } from 'framer-motion';
 import { FaHandshake, FaUsers } from 'react-icons/fa';
 import { AnimatedSection } from '../ui/AnimationComponents';
+import ParticlesComponent from '../ui/ParticlesComponent';
 
 export default function HeroSection() {
   return (
-    <section id="inicio" className="gradient-bg hero-pattern py-20">
-      <div className="container mx-auto px-4 text-center">
+    <section id="inicio" className="relative gradient-bg hero-pattern py-20 overflow-hidden">
+        <ParticlesComponent/>
+      <div className="container mx-auto px-4 text-center relative z-10">
         <div className="max-w-4xl mx-auto">
           <AnimatedSection delay={0.2}>
             <motion.h1 

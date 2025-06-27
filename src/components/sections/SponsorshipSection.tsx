@@ -30,6 +30,7 @@ export default function SponsorshipSection() {
 
   return (
     <section id="patrocinio" className="py-20 bg-white">
+       
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <AnimatedSection className="text-center mb-16">
@@ -58,7 +59,7 @@ export default function SponsorshipSection() {
 
           {/* Call to Action */}
           <AnimatedSection delay={0.6}>
-            <div className="bg-gradient-to-br from-green-500 to-blue-600 rounded-2xl p-8 text-center text-white">
+            <div className="relative bg-gradient-to-br from-green-500 to-blue-600 rounded-2xl p-8 text-center text-white">
               <h3 className="text-3xl font-bold mb-4">Vamos Conversar!</h3>
               <p className="text-xl mb-8 opacity-90">
                 Entre em contato conosco para discutirmos como sua empresa pode fazer parte desta conquista.
